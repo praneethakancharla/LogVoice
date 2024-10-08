@@ -41,7 +41,7 @@ LogVoice/
 ├── gradle/
 ├── README.md
 └── ...
-
+---
 ## 📝 Installation Steps
 
 1. **Clone the repository**:
