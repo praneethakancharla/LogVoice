@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:background="#F5F5F5">
+
+    <!-- Top colored rectangle bar -->
+
+    <View
+        android:id="@+id/top_color_bar"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="#6F56A3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/recording_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/top_color_bar"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000" />
+
+    <!-- Play Button -->
+
+    <ImageButton
+        android:id="@+id/play"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_below="@id/recording_title"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/img_5"
+        android:scaleType="fitCenter"/> <!-- Update with your drawable -->
+
+    <!-- Get Transcript Button -->
+    <Button
+        android:id="@+id/transcript"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/play"
+        android:layout_marginTop="32dp"
+        android:layout_centerHorizontal="true"
+        android:text="Get Transcript"
+        android:textSize="20sp" />
+
+    <!-- Save Button -->
+
+    <!-- Take Notes Button -->
+
+    <View
+        android:id="@+id/bottom_color_bar"
+        android:layout_width="0dp"
+        android:layout_height="65dp"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="411dp"
+        android:background="#6F56A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <View
+        android:id="@+id/bottom_color_bar2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="69dp"
+        android:layout_marginTop="75dp"
+        android:layout_marginEnd="343dp"
+        android:layout_marginBottom="591dp"
+        android:background="#6F56A3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/transcriptDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="189dp"
+        android:layout_below="@+id/transcript"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginEnd="20dp"
+        android:textColor="#6F56A3"
+        android:layout_marginBottom="43dp"
+        android:textSize="20sp" />
+
+</RelativeLayout>

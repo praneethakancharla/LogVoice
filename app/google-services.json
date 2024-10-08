@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "301838875100",
+    "project_id": "log-voice",
+    "storage_bucket": "log-voice.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:301838875100:android:461ec518b76b7b426a7719",
+        "android_client_info": {
+          "package_name": "com.example.logvoice"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdTCDRfJiPqjZRGF1LHuMGjaC8OIU36V8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
