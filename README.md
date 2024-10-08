@@ -26,7 +26,7 @@
 
 1. **Clone the repository**:
     ```bash
-    git clone https://github.com/yourusername/log-voice.git
+    https://github.com/praneethakancharla/LogVoice/
     ```
 
 2. **Open in Android Studio**:
