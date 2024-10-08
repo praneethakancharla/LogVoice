@@ -22,6 +22,25 @@
 
 ---
 
+## 📝 Installation Steps
+
+1. **Clone the repository**:
+    ```bash
+    git clone https://github.com/yourusername/log-voice.git
+    ```
+
+2. **Open in Android Studio**:
+   - Open Android Studio.
+   - Select **Open an existing project**.
+   - Choose the `LogVoice/` directory.
+
+3. **Set up Firebase**:
+   - Go to the [Firebase Console](https://console.firebase.google.com/).
+   - Create a new project or use an existing one.
+   - Add Firebase to your Android app:
+     - Download `google-services.json` from Firebase.
+     - Place the file in the `app/` directory.
+
 ## 📁 Folder Structure
 ```plaintext
 LogVoice/
@@ -42,22 +61,5 @@ LogVoice/
 ├── README.md
 └── ...
 ---
-## 📝 Installation Steps
 
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/yourusername/log-voice.git
-    ```
-
-2. **Open in Android Studio**:
-   - Open Android Studio.
-   - Select **Open an existing project**.
-   - Choose the `LogVoice/` directory.
-
-3. **Set up Firebase**:
-   - Go to the [Firebase Console](https://console.firebase.google.com/).
-   - Create a new project or use an existing one.
-   - Add Firebase to your Android app:
-     - Download `google-services.json` from Firebase.
-     - Place the file in the `app/` directory.
 
